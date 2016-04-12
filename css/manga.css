@@ -1,0 +1,209 @@
+@charset "UTF-8";
+/*
+	Manga Manager
+	CSS-Styles
+	24.02.16, Xalandra
+*/
+
+body {
+	font-family: Verdana, Arial, sans-serif;
+	font-size: 12px;
+	margin: 0;
+}
+
+/*** WRAPPER ***/
+#wrapper{
+	width: 900px;
+	position: relative;
+	margin: 0 auto 20px auto;
+}
+
+/*** HEADER ***/
+#header {
+	height: 80px;
+}
+
+#header img {
+	float: left;
+}
+
+#header-title {
+	float: left;
+	line-height: 40px;
+	letter-spacing: 2px;
+	padding-left: 20px;
+}
+
+.form-table table, td {
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 5px;
+}
+
+/*** RESULTS ***/
+#results a {
+	text-decoration: none;
+}
+
+.res {
+	overflow: auto;
+	margin-bottom: 20px;
+}
+
+.res img {
+	float: left;
+	margin-right: 10px;
+}
+
+#res-table {
+	width: 700px;
+	padding: 0 15px 15px 15px;
+}
+
+#res-table td{
+	border: 0;
+}
+
+.res-title {
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 0;
+}
+
+.res-author {
+	color: #0052CC;
+}
+
+.res-right {
+	text-align: right;
+}
+
+/*** GALLERY ***/
+#gallery {
+	overflow: auto;
+}
+
+.image{
+	border: 1px dotted black;
+	position: relative;
+	width: 150px;
+	height: 200px;
+	float: left;
+	padding-bottom: 10px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+/*** ICONS ***/
+.icons-details {
+	width: 94px;
+	text-align: center;
+	border-color: #CCCCCC;
+	background-color: #F2F2F2;
+}
+
+.icon-edit {
+	text-align: center;
+}
+
+/*** TOOLTIP ***/
+div#tooltip {
+	display: none;
+	position: absolute;
+	padding: 5px;
+	background-color: #00CCCC;
+	z-index: 1000;
+}
+
+/****** jQuery UI ******/
+.ui-corner-all, .ui-corner-top {
+    border-radius: 0px;
+}
+
+.ui-widget-content {
+	border: 1px solid #000000;
+	background: #FFFFFF;
+	color: #000000;
+}
+
+.ui-widget-header {
+	border: none;
+	background: #0052CC;
+	color: #000000;
+	font-weight: bold;
+}
+
+.ui-tabs {
+	padding: 0;
+}
+
+.ui-tabs .ui-tabs-nav {
+	padding: 0;
+}
+
+.ui-tabs .ui-tabs-nav li {
+	margin: 0;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default {
+	border: none;
+	background: #0052CC;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+
+.ui-state-default a,
+.ui-state-default a:link,
+.ui-state-default a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.ui-state-hover,
+.ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-hover,
+.ui-state-focus,
+.ui-widget-content .ui-state-focus,
+.ui-widget-header .ui-state-focus {
+	border: none;
+	background: #0099CC;
+	font-weight: bold;
+}
+
+.ui-state-hover a,
+.ui-state-hover a:hover,
+.ui-state-hover a:link,
+.ui-state-hover a:visited,
+.ui-state-focus a,
+.ui-state-focus a:hover,
+.ui-state-focus a:link,
+.ui-state-focus a:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.ui-state-active,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active {
+	border: none;
+	background: #00CCCC;
+	font-weight: bold;
+	color: #000000;
+}
+
+.ui-state-active a,
+.ui-state-active a:link,
+.ui-state-active a:visited {
+	color: #000000;
+	text-decoration: none;
+}
+
+
