@@ -1,2 +1,2 @@
 # Manga_Manager
-Web application to managa mangas
+Web application to manage mangas
